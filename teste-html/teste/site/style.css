@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'andorid';
+    src: url(IDroid.otf);
+}
+body{
+    background-color:#89CDA5;
+    margin:0px;
+}
+h1{
+    color:white;
+}
+h1,h2{
+    text-align:center;
+}
+h2{
+    font-size:2em;
+}
+h2,h3{
+    font-family:'andorid';
+    color:#1A5A37;
+
+}
+h3{
+    background-image:linear-gradient(to right,#89CDA5,#FFFFFF);
+    padding: 6px;
+    border-radius:10px;
+}
+h4{
+    border-radius:5px 5px 0px 0px ;
+    background-color:#2FA866;
+    padding:10px;
+}
+header{
+    background-image:linear-gradient(to bottom, #57B677,#1A5A37);
+    padding:20px;
+
+}
+nav > a{
+    padding:13px;
+    color:white;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-right:10px;
+    border-radius:5px;
+
+}
+a:hover{
+    background-color:#5CBE7D;
+
+}
+header > p{
+	min-width:120px;
+    max-width: 400px;
+    margin:auto;
+    text-align:center;
+    color:white;
+    padding-bottom:20px;
+}
+
+main{
+	min-width: 300px;
+    max-width:900px;
+    background-color:white;
+    margin:auto;
+    padding:10px;
+    box-shadow:0px 3px 3px 2px #70A887;
+}
+article > p{
+    text-align:justify;
+    text-align: 2em;
+    text-indent:35px;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+section.video{
+    background-color:#1A5A37;
+	margin: 0px -10px 30px -10px;
+    padding: 20px;
+	padding-bottom:59%;
+	position:relative;
+
+
+}
+section.video > iframe{
+	top:5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	position:absolute;
+
+}
+.mais{
+    background-color:#C5EBD6;
+    border-radius:0px 0px 5px 5px;
+    padding-bottom:10px;
+    box-shadow:0px 1px 3px 1px #70A887;
+}
+ul{
+    display:inline-block;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+span{
+    text-decoration: underline;
+    font-family:arial;
+}
+li::before{
+    content:'✔';
+}
+.mais > p{
+    margin: 0px 10px 15px 10px;
+
+}
+footer{
+    background-color: #1A5A37;
+    color: white;
+    text-align: center;
+    height:50px;
+}
+footer > p{
+    padding-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+img{
+	width: 100%;
+    display:block;
+    margin: auto;
+}
+img.imagens{
+	max-width: 350px;
+}
+.ultimop{
+    text-indent:30px;
+	min-width: 120px;
+    max-width:850px;
+    padding:15px 0px 0px 0px;
+}
