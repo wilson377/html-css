@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+header {
+    flex-flow:column wrap;
+    flex:auto;
+}
+header > nav {
+    flex-flow:column wrap;
+}
