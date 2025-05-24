@@ -21,9 +21,9 @@
           
         }
         main{
-            display: flex;
+           /* display: flex;
             flex-flow: row nowrap;
-            align-items: flex-start;
+            align-items: flex-start;*/
 
             width: 400px;
             height: 800px;
@@ -40,6 +40,26 @@
         }
         article{
             border: 1px solid black;
+
+            display: flex;
+            flex-flow: row wrap;
+            height: 300px;
+            width: 300px;
+
+            
+           
+        }
+        article > header {
+            border: 1px solid black;
+            width: 300px;
+            display: flex;
+            align-self: flex-end;
+        }
+        article > section,footer {
+            border: 1px solid black;
+            width: 300px;
+         align-self: self-end;
+            display: flex;
         }
         main > div{
             width: 200px;
@@ -66,22 +86,22 @@
         <div class="item">B</div>
         <div class="item">C</div>
     </div>
-    <main>
-        <header>header</header>
-        <nav>nav</nav>
-        <article>
+        <main>
             <header>header</header>
-            <section>section</section>
-            <section>section</section>
+            <nav>nav</nav>
+            <article>
+                <header>header</header>
+                <section>section</section>
+                <section>section</section>
+                <footer>footer</footer>
+            </article>
+            <div>
+                <aside>aside</aside>
+                <aside>aside</aside>
+            </div>
             <footer>footer</footer>
-        </article>
-        <div>
-            <aside>aside</aside>
-            <aside>aside</aside>
-        </div>
-        <footer>footer</footer>
+        </main>
         
-    </main>
     
 </body>
 </html>
