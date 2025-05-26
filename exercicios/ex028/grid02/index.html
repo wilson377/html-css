@@ -18,12 +18,11 @@
             width: 600px;
 
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: auto auto auto;
-            align-items:stretch;
-            justify-items:stretch;
-            align-content: stretch;
-            justify-content:stretch;
+            grid-template: repeat(3, auto) / repeat(3, auto);
+
+            place-items: start center;
+
+            place-content: space-between end;
         }
         div.item {
             border: 3px solid red;
